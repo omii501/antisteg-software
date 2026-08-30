@@ -11,7 +11,7 @@ def browse_file():
     )
     if path:
         entry.delete(0, tk.END)
-        entry.insert(0, path)
+        
 
 
 def scan():
